@@ -14,7 +14,7 @@ const App = () => {
     return store.phonebook;
   });
 
-  const filterValue = filter;
+  const filterValue = filter.toLowerCase();
   const dispatch = useDispatch();
 
   useEffect(() => {
